@@ -20,7 +20,7 @@ package DataType;
  */
 public class TransientTest {
 	private String a;
-	private int age;
+	public int age;
 	//无参的构造方法
 	public TransientTest() {
 		// TODO Auto-generated constructor stub
