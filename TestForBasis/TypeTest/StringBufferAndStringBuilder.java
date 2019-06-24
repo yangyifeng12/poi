@@ -23,6 +23,7 @@ public class StringBufferAndStringBuilder {
 		StringBuffer replace1=sBuffer.replace(0, 2, "hh");
 		System.out.println(replace1);//hh这是测试
 		System.out.println(sBuffer.capacity());
+		StringBuilder a=new StringBuilder("");
 	}
 
 }
