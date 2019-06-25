@@ -1,4 +1,6 @@
-package Think_In_Java;
+package Think_In_Java.CrazyJava;
+
+import Think_In_Java.CrazyJava.Person;
 
 public class ReferenceArrayTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Think_In_Java;
+package Think_In_Java.CrazyJava;
 
 public class Person {
     public int age;//年龄
