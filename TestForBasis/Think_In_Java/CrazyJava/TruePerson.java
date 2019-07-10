@@ -16,4 +16,6 @@ public class TruePerson extends Person {
         a.truePerson();
         System.out.println( a instanceof Person);//比较实例是否是当前类的实例
     }
+
+
 }
