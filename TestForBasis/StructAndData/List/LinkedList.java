@@ -33,7 +33,7 @@ public class LinkedList<E> {
     private int size;
 
     public LinkedList(){
-        dummyHead = null;
+        dummyHead = new Node();
         size = 0;
     }
 
@@ -48,7 +48,7 @@ public class LinkedList<E> {
     }
 
 
-    //在链表中的index(0-based)位置添加新的元素e（不是常规操作，联系用）
+    //在链表中的index(0-based)位置添加新的元素e（不是常规操作,练习用）
     public void add(int index,E e){
         if(index<0 ||index >size){
             throw new IllegalArgumentException("Add failed. Illegal index");
@@ -56,9 +56,9 @@ public class LinkedList<E> {
         Node prev =dummyHead;
            for(int i = 0 ;i<index-1;i++){
                prev=prev.next;
-               prev.next =new Node(e,prev.next);
-               size++;
            }
+               prev.next =new Node(e,prev.next);
+           size++;
     }
 
     //在链表表头添加新的元素e
